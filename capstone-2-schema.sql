@@ -1,12 +1,11 @@
--- REVOKE CONNECT ON DATABASE capstone_2 FROM public;
-DROP DATABASE capstone_2;
-CREATE DATABASE capstone_2;
+DROP DATABASE our_impact_db;
+CREATE DATABASE our_impact_db;
 
--- DROP DATABASE capstone_2_test;
--- CREATE DATABASE capstone_2_test;
+-- DROP DATABASE our_impact_db_test;
+-- CREATE DATABASE our_impact_db_test;
 
-\c capstone_2
--- \c capstone_2_test
+\c our_impact_db
+-- \c our_impact_db_test
 
 CREATE TABLE cities(
     city_name TEXT PRIMARY KEY,
