@@ -1,4 +1,4 @@
-DROP DATABASE our_impact_db;
+-- DROP DATABASE our_impact_db;
 CREATE DATABASE our_impact_db;
 
 -- DROP DATABASE our_impact_db_test;
