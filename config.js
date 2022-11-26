@@ -10,8 +10,8 @@ const PORT = +process.env.PORT || 3001;
 
 function getDatabaseUri() {
 	return process.env.NODE_ENV === "test"
-		? "capstone_2_test"
-		: process.env.DATABASE_URL || "capstone_2";
+		? "our_impact_db_test"
+		: process.env.DATABASE_URL || "our_impact_db";
 }
 
 const BCRYPT_WORK_FACTOR = process.env.NODE_ENV === "test" ? 1 : 13;
