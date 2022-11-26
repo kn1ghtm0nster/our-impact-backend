@@ -1,0 +1,21 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"properties": {
+		"content_title": {
+			"type": "string"
+		},
+		"content_url": {
+			"type": "string"
+		},
+		"content_type": {
+			"type": "string"
+		},
+		"rating": {
+			"type": "string"
+		}
+	},
+	"additionalProperties": false,
+	"required": ["content_title", "content_url", "content_type", "rating"]
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"properties": {
+		"commentText": {
+			"type": "string",
+			"minLength": 1
+		},
+		"author": {
+			"type": "string"
+		},
+		"locationName": {
+			"type": "string"
+		}
+	},
+	"additionalProperties": false,
+	"required": ["commentText", "author", "locationName"]
+}
